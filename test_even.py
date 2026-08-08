@@ -14,3 +14,6 @@ def test_is_even_with_negative_even():
 
 def test_is_even_with_negative_odd():
 	assert is_even(-3) == False
+
+def test_is_even_bad():
+	assert is_even(-123.2) == False
